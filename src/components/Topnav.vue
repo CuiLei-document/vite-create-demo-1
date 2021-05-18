@@ -18,6 +18,8 @@
         background: pink;
         display: flex;
         padding: 16px;
+        position: relative;
+        z-index: 9;
         > .logo{
             max-height: 6em;
             margin-right: auto;
