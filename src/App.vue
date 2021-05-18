@@ -1,17 +1,15 @@
 <template>
-  <div>hi</div>
-  <Cui/>
+  <div>
+    <router-link to="/">你猜</router-link>
+    <router-link to="/xxx">我不猜</router-link>
+  </div>
+  <router-view/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import Cui from './components/Cuis.vue'
 
 
 export default {
   name: 'App',
-  components: {
-    Cui: Cui
-  }
 }
 </script>
