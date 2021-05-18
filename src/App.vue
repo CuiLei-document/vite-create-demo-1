@@ -1,20 +1,21 @@
 <template>
-  <div>
+    <div>
 
-  </div>
-  <router-view/>
+    </div>
+    <router-view/>
 </template>
 
 <script>
 
 
-import {ref,provide} from 'vue';
+    import {ref, provide} from 'vue';
 
-export default {
-  name: 'App',
-  setup(){
-    const asideVisible = ref(false)
-    provide('asideVisible',asideVisible)
-  }
-}
+    export default {
+        name: 'App',
+        setup() {
+            const width = document.documentElement.clientWidth;
+            const asideVisible = ref(width > 500)
+            provide('asideVisible', asideVisible)
+        }
+    }
 </script>
