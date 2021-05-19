@@ -2,7 +2,6 @@
     <button :class="{checked:value}" @click="toggle">
         <span></span>
     </button>
-    {{value}}
 </template>
 
 <script lang="ts">
@@ -14,7 +13,7 @@
         },
         setup(props,content){
             const toggle = ()=>{
-                content.emit('input',!props.value);
+                content.emit('update:value',!props.value);
             }
             return{toggle}
         }
@@ -40,12 +39,20 @@
         width: $h2;
         background: white;
         border-radius: $h2 / 2;
-        transition: left 250ms;
+        transition: all 250ms;
     }
     button.checked{
-        background: blue;
+        background: #49c0f6;
     }
     button.checked > span{
         left: calc(100% - #{$h2} - 2px)
+    }
+    button:active{
+        > span{
+            width: $h2 + 10px;
+        }
+    }
+    button.checked:active{
+        > span{width: $h2 + 4px; margin-left: 2px;}
     }
 </style>
