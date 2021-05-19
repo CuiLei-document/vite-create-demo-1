@@ -30,29 +30,33 @@
         border: none;
         border-radius: $h/2;
         position: relative;
-    }
-    span {
-        position: absolute;
-        top: 2px;
-        left: 2px;
-        height: $h2;
-        width: $h2;
-        background: white;
-        border-radius: $h2 / 2;
-        transition: all 250ms;
-    }
-    button.checked{
-        background: #49c0f6;
-    }
-    button.checked > span{
-        left: calc(100% - #{$h2} - 2px)
-    }
-    button:active{
-        > span{
-            width: $h2 + 10px;
+        > span {
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            height: $h2;
+            width: $h2;
+            background: white;
+            border-radius: $h2 / 2;
+            transition: all 250ms;
+
         }
+        &.checked{
+            background: #49c0f6;
+        }
+        &.checked > span{
+            left: calc(100% - #{$h2} - 2px)
+        }
+        &:active{
+            > span{
+                width: $h2 + 10px;
+            }
+        }
+        &.checked:active{
+            > span{width: $h2 + 4px; margin-left: 2px;}
+        }
+
     }
-    button.checked:active{
-        > span{width: $h2 + 4px; margin-left: 2px;}
-    }
+
+
 </style>

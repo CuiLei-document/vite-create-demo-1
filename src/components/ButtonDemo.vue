@@ -2,10 +2,10 @@
     <div>
         <h1>按钮</h1>
         <div>
-            <Button @click="onClick"
-                    @focus="onClick"
-                    @mouseover="onClick"
-            >你好</Button>
+            <Button>你好</Button>
+            <Button theme="button">你好</Button>
+            <Button theme="link">你好</Button>
+            <Button theme="link">你好</Button>
         </div>
     </div>
 </template>
