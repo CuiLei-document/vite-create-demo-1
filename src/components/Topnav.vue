@@ -27,8 +27,13 @@
     .topnav{
         background: pink;
         display: flex;
+        justify-content: center;
+        align-items: center;
         padding: 16px;
-        position: relative;
+        position:fixed;
+        left:0;
+        top:0;
+        width: 100%;
         z-index: 9;
         > .logo{
             max-height: 6em;
