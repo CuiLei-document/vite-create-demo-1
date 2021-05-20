@@ -1,5 +1,5 @@
 <template>
-    <button :class="{checked:value}" @click="toggle">
+    <button class="gulun-switch" :class="{'gulun-checked':value}" @click="toggle">
         <span></span>
     </button>
 </template>
@@ -20,10 +20,10 @@
     };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
     $h: 22px;
     $h2: $h - 4px;
-    button {
+    .gulun-switch {
         height: $h;
         width: $h *2;
         background: gray;
@@ -41,10 +41,10 @@
             transition: all 250ms;
 
         }
-        &.checked{
+        &.gulun-checked{
             background: #49c0f6;
         }
-        &.checked > span{
+        &.gulun-checked > span{
             left: calc(100% - #{$h2} - 2px)
         }
         &:active{
@@ -52,7 +52,7 @@
                 width: $h2 + 10px;
             }
         }
-        &.checked:active{
+        &.gulun-checked:active{
             > span{width: $h2 + 4px; margin-left: 2px;}
         }
 
