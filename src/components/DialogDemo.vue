@@ -1,27 +1,27 @@
 <template>
-    <div>
-        <div>Dialog 示例</div>
-        <h1>示例一</h1>
-        <Button @click="toggle">toggle</Button>
-        <Dialog v-model:visible="x" :close-on-click-overlay="false"
-                :ok="f1" :cancel="f2"
-        >
-            <template v-slot:title>
-                <strong>提示</strong>
-            </template>
-            <template v-slot:content>
-                <div>你好</div>
-                <div>你好啊</div>
-            </template>
-        </Dialog>
-    </div>
-
+    <div>Dialog 示例</div>
+    <h1>示例一</h1>
+    <Button @click="toggle">toggle</Button>
+    <Dialog v-model:visible="x" :close-on-click-overlay="false"
+            :ok="f1" :cancel="f2"
+    >
+        <template v-slot:title>
+            <strong>提示</strong>
+        </template>
+        <template v-slot:content>
+            <div>你好</div>
+            <div>你好啊</div>
+        </template>
+    </Dialog>
+    <h1>示例二</h1>
+    <Button @click="showDialog">showDialog</Button>
 </template>
 
 <script lang="ts">
     import Dialog from '../lib/Dialog.vue';
     import {ref} from 'vue';
     import Button from '../lib/Button.vue';
+    import {openDialog} from '../lib/openDialog';
 
     export default {
         components: {Button, Dialog},
@@ -35,8 +35,21 @@
             };
             const f2 = () => {
             };
+            const showDialog = () => {
+                openDialog({
+                        title: '标题',
+                        content: '你好',
+                        ok() {
+                            console.log('hi');
+                        },
+                        cancel() {
+                            console.log('Nihao');
+                        }
+                    }
+                );
+            };
             return {
-                x, toggle, f1, f2
+                x, toggle, f1, f2, showDialog
             };
         }
     };
