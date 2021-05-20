@@ -1,15 +1,15 @@
 <template>
     <template v-if="visible">
-        <div class="gulun-dialog-overlay" @click="onClickOverlay"></div>
+        <div class="gulun-dialog-overlay" @click="onClickOverlay">
+        </div>
         <div class="gulun-dialog-wrapper">
             <div class="gulun-dialog">
                 <header>
-                    标题
+                    <slot name="title"/>
                     <span @click="close" class="gulun-dialog-close"></span>
                 </header>
                 <main>
-                    <p>第一个字</p>
-                    <p>第二个字</p>
+                    <slot name="content"/>
                 </main>
                 <footer>
                     <Button level="main" @click="ok">OK</Button>
