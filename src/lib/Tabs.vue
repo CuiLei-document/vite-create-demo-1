@@ -8,9 +8,8 @@
             </div>
 
         </div>
-        {{current}}
         <div class="gulun-tabs-content">
-            <component class="gulun-tabs-content-item" :is="current"/>
+            <component class="gulun-tabs-content-item" :class="{selected: c.props.title === selected}" v-for="(c,index) in defaults" :key="index" :is="c"/>
         </div>
     </div>
 </template>
@@ -68,7 +67,6 @@
                 &:first-child {
                     margin-left: 0;
                 }
-
                 &.selected {
                     color: $blue;
                 }
@@ -77,6 +75,12 @@
 
         &-content {
             padding: 8px 0;
+            &-item{
+                display: none;
+                &.selected{
+                    display: block;
+                }
+            }
         }
 
     }
