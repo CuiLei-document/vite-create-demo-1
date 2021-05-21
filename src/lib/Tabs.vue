@@ -1,22 +1,23 @@
 <template>
     <div class="gulun-tabs">
-        <div class="gulun-tabs-nav">
-            <div class=" gulun-tabs-nav-item"
-                 :class="{selected: t === selected}"
-                 @click="select(t)"
-                 v-for="(t,index) in titles" :key="index">{{t}}
+        <div class="gulun-tabs-nav" ref="container">
+            <div class=" gulun-tabs-nav-item" :class="{selected: t === selected}" @click="select(t)"
+                 :ref=" el => {if(t === selected) selectedItem  = el}"
+                 v-for="(t,index) in titles" :key="index"
+            >{{t}}
             </div>
-
+            <div class="gulun-tabs-nav-indicator" ref="indicator"></div>
         </div>
         <div class="gulun-tabs-content">
-            <component class="gulun-tabs-content-item" :class="{selected: c.props.title === selected}" v-for="(c,index) in defaults" :key="index" :is="c"/>
+            <component class="gulun-tabs-content-item" :class="{selected: c.props.title === selected}"
+                       v-for="(c,index) in defaults" :key="index" :is="c"/>
         </div>
     </div>
 </template>
 
 <script lang="ts">
     import Tab from './Tab.vue';
-    import {computed} from 'vue';
+    import {computed, ref, onMounted, watchEffect} from 'vue';
 
     export default {
         props: {
@@ -25,8 +26,21 @@
             }
         },
         setup(props, context) {
+            const selectedItem = ref<HTMLDivElement>(null);
+            const indicator = ref<HTMLDivElement>(null);
+            const container = ref<HTMLDivElement>(null);
+            onMounted(() => {
+                watchEffect(() => {
+                    const {width} = selectedItem.value.getBoundingClientRect();
+                    indicator.value.style.width = width + 'px';
+                    const {left: left1} = container.value.getBoundingClientRect();
+                    const {left: left2} = selectedItem.value.getBoundingClientRect();
+                    const left = left2 - left1;
+                    indicator.value.style.left = left + 'px';
+                });
+            });
+
             const defaults = context.slots.default();
-            console.log(defaults);
             defaults.forEach((tag) => {
                 if (tag.type !== Tab) {
                     throw new Error('tag 标签必须是 Tab');
@@ -35,15 +49,11 @@
             const titles = defaults.map((t) => {
                 return t.props.title;
             });
-            const current = computed(() => {
-                return defaults.filter((tag) => {
-                    return tag.props.title === props.selected;
-                })[0];
-            });
+
             const select = (tag) => {
                 context.emit('update:selected', tag);
             };
-            return {defaults, titles, current, select};
+            return {defaults, titles, select, selectedItem, indicator, container};
         }
     };
 </script>
@@ -58,6 +68,7 @@
             display: flex;
             color: $color;
             border-bottom: 1px solid $border-color;
+            position: relative;
 
             &-item {
                 padding: 8px 0;
@@ -67,17 +78,32 @@
                 &:first-child {
                     margin-left: 0;
                 }
+
                 &.selected {
                     color: $blue;
                 }
+
             }
+
+            &-indicator {
+                position: absolute;
+                height: 3px;
+                background: $blue;
+                left: 0;
+                bottom: -1px;
+                width: 100px;
+                transition: all 250ms
+            }
+
         }
 
         &-content {
             padding: 8px 0;
-            &-item{
+
+            &-item {
                 display: none;
-                &.selected{
+
+                &.selected {
                     display: block;
                 }
             }

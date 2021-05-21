@@ -2,7 +2,7 @@
     <div>Tabs示例</div>
     <h1>示例一</h1>
     <Tabs :selected="x" @update:selected=" x = $event">
-        <Tab title="导航一">内容一</Tab>
+        <Tab title="导航一222">内容一</Tab>
         <Tab title="导航二">内容二</Tab>
     </Tabs>
 </template>
@@ -14,7 +14,7 @@
     export default{
         components: {Tabs,Tab},
        setup(){
-            const x = ref('导航一')
+            const x = ref('导航一222')
            return {x}
        }
     }

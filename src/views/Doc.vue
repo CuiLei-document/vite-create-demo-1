@@ -1,8 +1,8 @@
 <template>
     <div>
-        <Topnav/>
+        <Topnav />
         <div class="layout">
-            <Topnav class="nav"/>
+            <Topnav toggle-menu-button-visible class="nav"/>
             <div class="content">
                 <aside v-if="asideVisible">
                     <h2>组件列表</h2>
@@ -36,7 +36,6 @@
         components: {Topnav},
         setup() {
             const asideVisible = inject<Ref<boolean>>('asideVisible');
-            console.log('Doc 获取 asideVisible的内容是' + asideVisible.value);
             return {asideVisible};
         }
     };
@@ -62,6 +61,7 @@
         display:flex;
         >aside{
             flex-shrink: 0;
+            z-index: 1;
         }
         > main{
             flex-grow:1;

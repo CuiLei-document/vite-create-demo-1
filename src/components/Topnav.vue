@@ -1,20 +1,32 @@
 <template>
-    <div class="topnav">
-        <div class="logo" >LOGO</div>
+    <div class="gulun-topnav">
+        <router-link to="/" class="logo" >
+            <svg class="icon">
+                <use xlink:href="#icon-gulun"></use>
+            </svg>
+        </router-link>
         <ul class="menu">
-            <li>菜单1</li>
-            <li>菜单2</li>
+            <li>
+                <router-link to="/doc">文档</router-link>
+            </li>
         </ul>
-        <span class="toggleAside" @click="toggle"></span>
+        <svg v-if="toggleMenuButtonVisible" class="toggleAside" @click="toggle">
+                <use xlink:href="#icon-caidan"></use>
+        </svg>
     </div>
 </template>
 
 <script lang='ts'>
     import {provide, inject, Ref} from 'vue'
     export default{
+        props:{
+            toggleMenuButtonVisible:{
+                type:Boolean,
+                default: false
+            }
+        },
         setup(){
             const asideVisible = inject<Ref<boolean>>('asideVisible')
-            console.log('Topnav 获取 asideVisible的内容是'+ asideVisible.value);
             const toggle = ()=>{
                 asideVisible.value = !asideVisible.value
             }
@@ -24,8 +36,7 @@
 </script>
 
 <style scoped lang="scss">
-    .topnav{
-        background: pink;
+    .gulun-topnav{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -34,10 +45,14 @@
         left:0;
         top:0;
         width: 100%;
-        z-index: 9;
+        z-index: 20;
         > .logo{
             max-height: 6em;
             margin-right: auto;
+            > .icon{
+                width: 28px;
+                height: 28px;
+            }
         }
         > .menu{
             display:flex;
@@ -49,8 +64,8 @@
         }
         > .toggleAside{
             display:none;
-            width: 24px;
-            height: 24px;
+            width: 26px;
+            height: 26px;
             background: red;
             position:absolute;
             top:50%;
