@@ -1,0 +1,15 @@
+<template>
+    <Switch v-model:value="bool" aria-disabled="" />
+</template>
+
+<script>
+    import Switch from '../lib/Switch.vue'
+    import {ref} from "vue";
+        export default{
+            components:{Switch},
+            setup(){
+                const bool = ref(true)
+                return {bool}
+            }
+        }
+</script>

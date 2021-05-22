@@ -19,15 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2f05c2a-cd9f-4d50-9dfa-d5ab2f3d4c34" name="Default Changelist" comment="以 md格式 引入">
-      <change afterPath="$PROJECT_DIR$/src/components/MarkDown.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="c2f05c2a-cd9f-4d50-9dfa-d5ab2f3d4c34" name="Default Changelist" comment="代码重复 事不过三">
+      <change afterPath="$PROJECT_DIR$/src/components/Switch1.demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Switch2.demo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/GetStarted.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Install.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Intro.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +42,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="ts.external.directory.path" value="D:\webstormmf\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\饥人谷\vue-app-demo1\GULUN-vueApp\src\components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\饥人谷\vue-app-demo1\GULUN-vueApp\src\plugins" />
     </key>
@@ -68,7 +67,7 @@
       <workItem from="1621558795055" duration="29407000" />
       <workItem from="1621645724033" duration="1019000" />
       <workItem from="1621652785221" duration="412000" />
-      <workItem from="1621653213105" duration="11638000" />
+      <workItem from="1621653213105" duration="15256000" />
     </task>
     <task id="LOCAL-00001" summary="对Button按钮 进行css样式完成">
       <created>1621490465817</created>
@@ -161,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621661305358</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="代码重复 事不过三">
+      <created>1621664959937</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1621664959937</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +199,8 @@
     <MESSAGE value="引入 github样式" />
     <MESSAGE value="引入 intro.md 报错 无法运行" />
     <MESSAGE value="以 md格式 引入" />
-    <option name="LAST_COMMIT_MESSAGE" value="以 md格式 引入" />
+    <MESSAGE value="代码重复 事不过三" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码重复 事不过三" />
   </component>
   <component name="WindowStateProjectService">
     <state x="679" y="218" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1621664840686">
