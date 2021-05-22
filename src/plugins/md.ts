@@ -1,32 +1,7 @@
-<<<<<<< HEAD
-import './lib/gulun.scss';
-import './index.scss';
-import {createApp} from 'vue';
-import App from './App.vue';
-import {router} from './router';
-import 'github-markdown-css'
-
-const app = createApp(App);
-app.use(router);
-app.mount('#app');
-=======
 // @ts-nocheck
 import path from 'path'
 import fs from 'fs'
 import marked from 'marked'
-
-
-
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-// 请注意，当前文件的后缀从 .js 改为了 .ts
-// 如果你看到这行注释，请确认文件后缀是 .ts
-// 然后就可以删掉本注释了!!!!!!!!!!!!!!!!
-
-
-
-
-
-
 
 const mdToJs = str => {
     const content = JSON.stringify(marked(str))
@@ -54,4 +29,3 @@ export function md() {
         }]
     }
 }
->>>>>>> 13067debfb5c93edecbd9cd6350fd8a6255755f2

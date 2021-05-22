@@ -1371,10 +1371,17 @@ magic-string@^0.25.7:
   dependencies:
     sourcemap-codec "^1.4.4"
 
+<<<<<<< HEAD
 marked@^2.0.5:
   version "2.0.5"
   resolved "https://registry.nlark.com/marked/download/marked-2.0.5.tgz#2d15c759b9497b0e7b5b57f4c2edabe1002ef9e7"
   integrity sha1-LRXHWblJew57W1f0wu2r4QAu+ec=
+=======
+marked@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.nlark.com/marked/download/marked-2.0.4.tgz#71d54d41f27d91ac2ed308f73c301fe9f0657a94"
+  integrity sha1-cdVNQfJ9kawu0wj3PDAf6fBlepQ=
+>>>>>>> 13067debfb5c93edecbd9cd6350fd8a6255755f2
 
 media-typer@0.3.0:
   version "0.3.0"

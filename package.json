@@ -12,7 +12,11 @@
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.0-rc.1",
+<<<<<<< HEAD
     "marked": "^2.0.5",
+=======
+    "marked": "^2.0.4",
+>>>>>>> 13067debfb5c93edecbd9cd6350fd8a6255755f2
     "vite": "^1.0.0-rc.1"
   }
 }
