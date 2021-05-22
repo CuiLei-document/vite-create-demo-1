@@ -1,50 +1,22 @@
 <template>
     <div>
-        <h1>Switch 组件示例</h1>
-        <div class="demo">
-            <h2>常规用法</h2>
-            <div class="demo-component">
-                <component :is="Switch1Demo"/>
-            </div>
-            <div class="demo-actions">
-                <Button>查看代码</Button>
-            </div>
-            <div class="demo-code">
-                <pre v-text="Switch1Demo.__demo"></pre>
-            </div>
-        </div>
-        <div class="demo">
-            <h2>支持 disabled </h2>
-            <div class="demo-component">
-                <component :is="Switch2Demo"/>
-            </div>
-            <div class="demo-actions">
-                <Button>查看代码</Button>
-            </div>
-            <div class="demo-code">
-<!--                <pre v-html="Prism.highlight(Switch2Demo.__demo,Prism.languages.html,'html')"> </pre>-->
-            </div>
-        </div>
+        <Demo :component="Switch1Demo"/>
+        <Demo :component="Switch2Demo"/>
     </div>
 </template>
 
 <script lang="ts">
-    import Switch from '../lib/Switch.vue';
-    import Button from '../lib/Button.vue';
+
     import Switch1Demo from '../components/Switch1.demo.vue';
     import Switch2Demo from '../components/Switch2.demo.vue';
-    import 'prismjs';
-    // import 'prismjs/themes/prism.css'
-
-    const Prism = (window as any).Prism;
-    console.log(Prism);
+    import Demo from '../components/Demo.vue';
     import {ref} from 'vue';
 
     export default {
-        components: {Switch, Button},
+        components: {Demo},
         setup() {
             const bool = ref(true);
-            return {bool, Switch1Demo, Switch2Demo,Prism};
+            return {bool, Switch1Demo, Switch2Demo};
         }
     };
 </script>
@@ -56,6 +28,9 @@
         border: 1px solid $border-color;
         padding: 8px 16px;
         margin: 16px 0 32px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
 
         > h2 {
             color: $color;

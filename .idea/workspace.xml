@@ -20,13 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2f05c2a-cd9f-4d50-9dfa-d5ab2f3d4c34" name="Default Changelist" comment="抽离用户需要拷贝的代码">
+      <change afterPath="$PROJECT_DIR$/src/Dialogs/Dialog1.demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dialogs/Dialog2.demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/prism.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/buttons/Button1.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/buttons/Button2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/buttons/Button3.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/buttons/Button4.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/buttons/Button5.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tabs/Tab.demo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Switch1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch1.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Switch2.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch2.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DialogDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MarkDown.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MarkDown.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shims-vue.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shims-vue.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,14 +60,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
     <property name="ts.external.directory.path" value="D:\webstormmf\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\饥人谷\vue-app-demo1\GULUN-vueApp\src\assets" />
       <recent name="D:\饥人谷\vue-app-demo1\GULUN-vueApp\src\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\饥人谷\vue-app-demo1\GULUN-vueApp\src" />
       <recent name="D:\饥人谷\vue-app-demo1\GULUN-vueApp\src\plugins" />
     </key>
   </component>
@@ -74,7 +87,7 @@
       <workItem from="1621558795055" duration="29407000" />
       <workItem from="1621645724033" duration="1019000" />
       <workItem from="1621652785221" duration="412000" />
-      <workItem from="1621653213105" duration="20103000" />
+      <workItem from="1621653213105" duration="30159000" />
     </task>
     <task id="LOCAL-00001" summary="对Button按钮 进行css样式完成">
       <created>1621490465817</created>
@@ -222,9 +235,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="218" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621664840686" />
-    <state x="868" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1621659660484">
+    <state x="868" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1621676377052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="868" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1621659660484" />
+    <state x="868" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1621676377052" />
   </component>
 </project>
