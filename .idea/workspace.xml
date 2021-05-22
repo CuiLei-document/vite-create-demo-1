@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c2f05c2a-cd9f-4d50-9dfa-d5ab2f3d4c34" name="Default Changelist" comment="引入 github样式">
+      <change afterPath="$PROJECT_DIR$/plugins/md.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite.comfig.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Intro.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1smbNpgPhSQeAd0aT8uS5QAQDEc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="ts.external.directory.path" value="D:\webstormmf\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\饥人谷\vue-app-demo1\GULUN-vueApp\src\plugins" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2f05c2a-cd9f-4d50-9dfa-d5ab2f3d4c34" name="Default Changelist" comment="" />
+      <created>1621480674977</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621480674977</updated>
+      <workItem from="1621480676281" duration="28505000" />
+      <workItem from="1621558795055" duration="29407000" />
+      <workItem from="1621645724033" duration="1019000" />
+      <workItem from="1621652785221" duration="412000" />
+      <workItem from="1621653213105" duration="4693000" />
+    </task>
+    <task id="LOCAL-00001" summary="对Button按钮 进行css样式完成">
+      <created>1621490465817</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621490465817</updated>
+    </task>
+    <task id="LOCAL-00002" summary="点击4个按钮实现关闭">
+      <created>1621506651030</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621506651030</updated>
+    </task>
+    <task id="LOCAL-00003" summary="具名插槽 v-slot:名字&#10;&lt;slot name=&quot;名字&quot;/&gt;">
+      <created>1621507728924</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1621507728924</updated>
+    </task>
+    <task id="LOCAL-00004" summary="渲染Tabs">
+      <created>1621516222565</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621516222565</updated>
+    </task>
+    <task id="LOCAL-00005" summary="遇到vue3 点击切换BUG">
+      <created>1621565945415</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1621565945416</updated>
+    </task>
+    <task id="LOCAL-00006" summary="使用 selected css  来切换内容">
+      <created>1621566404142</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1621566404142</updated>
+    </task>
+    <task id="LOCAL-00007" summary="添加 icon">
+      <created>1621591628303</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1621591628303</updated>
+    </task>
+    <task id="LOCAL-00008" summary="添加 router-link 样式">
+      <created>1621594105209</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1621594105209</updated>
+    </task>
+    <task id="LOCAL-00009" summary="配置 vite.config.ts 运行 报错">
+      <created>1621596973221</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1621596973221</updated>
+    </task>
+    <task id="LOCAL-00010" summary="配置 vite.config.ts 之前">
+      <created>1621653603515</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1621653603515</updated>
+    </task>
+    <task id="LOCAL-00011" summary="引入 github样式">
+      <created>1621654580727</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1621654580727</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="对Button按钮 进行css样式完成" />
+    <MESSAGE value="点击4个按钮实现关闭" />
+    <MESSAGE value="具名插槽 v-slot:名字&#10;&lt;slot name=&quot;名字&quot;/&gt;" />
+    <MESSAGE value="渲染Tabs" />
+    <MESSAGE value="遇到vue3 点击切换BUG" />
+    <MESSAGE value="使用 selected css  来切换内容" />
+    <MESSAGE value="添加 icon" />
+    <MESSAGE value="添加 router-link 样式" />
+    <MESSAGE value="配置 vite.config.ts 运行 报错" />
+    <MESSAGE value="配置 vite.config.ts 之前" />
+    <MESSAGE value="引入 github样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="引入 github样式" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="868" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1621657114186">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="868" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1621657114186" />
+  </component>
+</project>
