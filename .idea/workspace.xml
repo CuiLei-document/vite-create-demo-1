@@ -19,11 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2f05c2a-cd9f-4d50-9dfa-d5ab2f3d4c34" name="Default Changelist" comment="代码重复 事不过三">
-      <change afterPath="$PROJECT_DIR$/src/components/Switch1.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Switch2.demo.vue" afterDir="false" />
+    <list default="true" id="c2f05c2a-cd9f-4d50-9dfa-d5ab2f3d4c34" name="Default Changelist" comment="抽离用户需要拷贝的代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Switch1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch1.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Switch2.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch2.demo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +35,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/vite.config.ts" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/SwitchDemo.vue" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1smbNpgPhSQeAd0aT8uS5QAQDEc" />
   <component name="ProjectViewState">
@@ -67,7 +74,7 @@
       <workItem from="1621558795055" duration="29407000" />
       <workItem from="1621645724033" duration="1019000" />
       <workItem from="1621652785221" duration="412000" />
-      <workItem from="1621653213105" duration="15256000" />
+      <workItem from="1621653213105" duration="20103000" />
     </task>
     <task id="LOCAL-00001" summary="对Button按钮 进行css样式完成">
       <created>1621490465817</created>
@@ -167,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621664959937</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="抽离用户需要拷贝的代码">
+      <created>1621670655787</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1621670655787</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +214,8 @@
     <MESSAGE value="引入 intro.md 报错 无法运行" />
     <MESSAGE value="以 md格式 引入" />
     <MESSAGE value="代码重复 事不过三" />
-    <option name="LAST_COMMIT_MESSAGE" value="代码重复 事不过三" />
+    <MESSAGE value="抽离用户需要拷贝的代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="抽离用户需要拷贝的代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="679" y="218" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1621664840686">

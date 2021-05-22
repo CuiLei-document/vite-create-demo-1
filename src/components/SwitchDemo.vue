@@ -4,25 +4,25 @@
         <div class="demo">
             <h2>常规用法</h2>
             <div class="demo-component">
-                <Switch1Demo/>
+                <component :is="Switch1Demo"/>
             </div>
             <div class="demo-actions">
                 <Button>查看代码</Button>
             </div>
             <div class="demo-code">
-                <pre>&lt;Switech v-model:value="bool" /&gt;</pre>
+                <pre v-text="Switch1Demo.__demo"></pre>
             </div>
         </div>
         <div class="demo">
             <h2>支持 disabled </h2>
             <div class="demo-component">
-                <Switch2Demo/>
+                <component :is="Switch2Demo"/>
             </div>
             <div class="demo-actions">
                 <Button>查看代码</Button>
             </div>
             <div class="demo-code">
-                <pre>&lt;Switch v-model:value="bool" /&gt;</pre>
+<!--                <pre v-html="Prism.highlight(Switch2Demo.__demo,Prism.languages.html,'html')"> </pre>-->
             </div>
         </div>
     </div>
@@ -33,13 +33,18 @@
     import Button from '../lib/Button.vue';
     import Switch1Demo from '../components/Switch1.demo.vue';
     import Switch2Demo from '../components/Switch2.demo.vue';
+    import 'prismjs';
+    // import 'prismjs/themes/prism.css'
+
+    const Prism = (window as any).Prism;
+    console.log(Prism);
     import {ref} from 'vue';
 
     export default {
-        components: {Switch, Button,Switch1Demo,Switch2Demo},
+        components: {Switch, Button},
         setup() {
             const bool = ref(true);
-            return {bool};
+            return {bool, Switch1Demo, Switch2Demo,Prism};
         }
     };
 </script>
