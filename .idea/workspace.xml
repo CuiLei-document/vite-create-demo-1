@@ -19,15 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2f05c2a-cd9f-4d50-9dfa-d5ab2f3d4c34" name="Default Changelist" comment="引入 intro.md 报错 无法运行">
-      <change afterPath="$PROJECT_DIR$/src/markdown/getstarted.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/markdown/install.md" afterDir="false" />
+    <list default="true" id="c2f05c2a-cd9f-4d50-9dfa-d5ab2f3d4c34" name="Default Changelist" comment="以 md格式 引入">
+      <change afterPath="$PROJECT_DIR$/src/components/MarkDown.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/GetStarted.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/GetStarted.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Install.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Install.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Intro.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/GetStarted.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Install.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Intro.vue" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +36,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/views/Intro.vue" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1smbNpgPhSQeAd0aT8uS5QAQDEc" />
   <component name="ProjectViewState">
@@ -71,7 +68,7 @@
       <workItem from="1621558795055" duration="29407000" />
       <workItem from="1621645724033" duration="1019000" />
       <workItem from="1621652785221" duration="412000" />
-      <workItem from="1621653213105" duration="8023000" />
+      <workItem from="1621653213105" duration="11638000" />
     </task>
     <task id="LOCAL-00001" summary="对Button按钮 进行css样式完成">
       <created>1621490465817</created>
@@ -157,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621657938526</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="以 md格式 引入">
+      <created>1621661305358</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1621661305358</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,9 +192,14 @@
     <MESSAGE value="配置 vite.config.ts 之前" />
     <MESSAGE value="引入 github样式" />
     <MESSAGE value="引入 intro.md 报错 无法运行" />
-    <option name="LAST_COMMIT_MESSAGE" value="引入 intro.md 报错 无法运行" />
+    <MESSAGE value="以 md格式 引入" />
+    <option name="LAST_COMMIT_MESSAGE" value="以 md格式 引入" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="679" y="218" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1621664840686">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="679" y="218" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621664840686" />
     <state x="868" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1621659660484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
