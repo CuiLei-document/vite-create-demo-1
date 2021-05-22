@@ -3,8 +3,7 @@
     </article>
 </template>
 <script lang="js">
-    // @ts-nocheck
-    import md from '../markdown/intro.md';
+    import md from '../markdown/intro.md'
     export default {
         data(){
             return {md}
